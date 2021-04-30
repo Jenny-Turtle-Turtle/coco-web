@@ -171,7 +171,7 @@ export default {
       const targetConfig = result[0].pageConfig;
       state.name = result[0].name;
       state.url = `http://localhost:8081?isEdit=true`;
-      state.showUrl = `https://coco-h5.github.io/${state.name}/index.html`;
+      state.showUrl = `https://jenny-turtle-turtle.github.io/${state.name}/index.html`;
       dispatch('returnConfig', {
         targetConfig: targetConfig,
         pageData: state.data,
